@@ -1,7 +1,7 @@
 {
   "name": "@ui-guys/stencil-bs-ui-lib",
   "private": false,
-  "version": "0.3.47",
+  "version": "0.3.48",
   "description": "Bootstrap componentes built with StencilJS",
   "engines": {
     "node": ">=6.11.0"
@@ -23,7 +23,8 @@
     "publish": "npm publish --dry-run --access public",
     "heroku-postbuild": "npm run build",
     "serve:heroku": "http-server www",
-    "postinstall": "npm i && run build"
+    "prepublish": "npm run build",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "@divsbhalala/video-js-thumbnails": "^1.0.0",
