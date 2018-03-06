@@ -23,7 +23,7 @@
     "publish": "npm publish --dry-run --access public",
     "heroku-postbuild": "npm run build",
     "serve:heroku": "http-server www",
-    "postinstall": "npm run build"
+    "postinstall": "npm i && run build"
   },
   "dependencies": {
     "@divsbhalala/video-js-thumbnails": "^1.0.0",
