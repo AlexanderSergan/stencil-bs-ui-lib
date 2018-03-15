@@ -229,7 +229,7 @@ declare global {
 
 
 import {
-  StencilComponent as CwcSchedule
+  CwcSchedule as CwcSchedule
 } from './components/cwc-schedule/cwc-schedule';
 
 declare global {

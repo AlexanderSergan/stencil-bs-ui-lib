@@ -8,7 +8,7 @@ import moment from 'moment';
     tag: 'cwc-schedule',
     // styleUrl: 'cwc-schedule.scss'
 })
-export class StencilComponent {
+export class CwcSchedule {
 
     @Prop() resources: any[] = [];
     @Prop() events: any[] = [];
